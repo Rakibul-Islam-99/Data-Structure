@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"g:\\course-03 DataStructure\\Week-02\\Assignment-02\\test.cpp","tests":[{"id":1693147757203,"input":"10 20 30 40 50 60 -1","output":"10 20 30 40 50 60"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\course-03 DataStructure\\Week-02\\Assignment-02\\test.cpp","group":"local","local":true}
