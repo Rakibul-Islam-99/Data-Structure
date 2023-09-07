@@ -114,24 +114,27 @@ int main()
     cin>>pos>>val;
     // int val;
     //  cin>>val;
-    if(pos==0)
-    {
-        insert_at_head(head,tail,val);
-         print_normal(head);
-    }
-    else if (pos>=size(head))
+
+     if (pos>size(head))
     {
         cout<<"Invalid!"<<endl;
+    }
+     else if(pos==0)
+    {
+        insert_at_head(head,tail,val);
 
+    }
+    else if(pos==size(head))
+    {
+        insert_at_tail(head,tail,val);
     }
     else{
         insert_at_position(head,tail,pos,val);
-        print_normal(head);
+
     }
-    // cout<<size(head);
-   
-
-
+    print_normal(head);
+    print_reverse(tail);
+    
 
     // insert_at_position(head,tail,pos,val);
     // insert_at_head(head,tail,val);
