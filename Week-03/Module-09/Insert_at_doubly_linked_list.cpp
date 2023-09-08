@@ -135,16 +135,5 @@ int main()
     print_normal(head);
     print_reverse(tail);
     
-
-    // insert_at_position(head,tail,pos,val);
-    // insert_at_head(head,tail,val);
-    // insert_at_tail(head,tail,val);
-
-
-    // print_normal(head);
-    // print_reverse(tail);
-
-  
-
     return 0;
 }
